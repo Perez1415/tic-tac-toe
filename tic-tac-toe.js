@@ -32,3 +32,38 @@ function switchcircle(){
     circle.setAttribute("fill", "red")
      canvas.appendChild(circle)
     }
+    function sidecircle(){
+      circle.setAttribute("cx", 140)
+      circle.setAttribute("cy", 240)
+      circle.setAttribute("r", 30)
+      circle.setAttribute("fill", "red")
+       canvas.appendChild(circle)
+    }
+   function othersidecircle(){
+     circle.setAttribute("cx", 145)
+     circle.setAttribute("cy", 140)
+     circle.setAttribute("r", 30)
+     circle.setAttribute("fill", "blue")
+      canvas.appendChild(circle)
+   }
+   function smallcircle(){
+     circle.setAttribute("cx", 240)
+     circle.setAttribute("cy", 240)
+     circle.setAttribute("r", 30)
+     circle.setAttribute("fill", "blue")
+      canvas.appendChild(circle)
+   }
+   function thirdcircle(){
+     circle.setAttribute("cx", 240)
+     circle.setAttribute("cy", 140)
+     circle.setAttribute("r", 30)
+     circle.setAttribute("fill", "red")
+      canvas.appendChild(circle)
+   }
+   function lastcircle(){
+     circle.setAttribute("cx",40)
+     circle.setAttribute("cy", 240)
+     circle.setAttribute("r", 30)
+     circle.setAttribute("fill", "blue")
+      canvas.appendChild(circle)
+   }
