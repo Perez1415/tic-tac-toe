@@ -67,3 +67,20 @@ function switchcircle(){
      circle.setAttribute("fill", "blue")
       canvas.appendChild(circle)
    }
+
+   var turn="player1"
+
+   function topLeft(){
+    if(turn=="player1"){
+
+    }else{
+
+var turn="player1"
+}
+}
+  function topMiddle(){
+if(turn=="player1")
+
+
+
+  }
